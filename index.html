@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Мой интернет-магазин</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать в мой магазин!</h1>
+  </header>
+  <main>
+    <section class="products">
+      <article class="product">
+        <h2>Товар 1</h2>
+        <p>Описание товара 1.</p>
+        <button onclick="addToCart('Товар 1')">Добавить в корзину</button>
+      </article>
+      <article class="product">
+        <h2>Товар 2</h2>
+        <p>Описание товара 2.</p>
+        <button onclick="addToCart('Товар 2')">Добавить в корзину</button>
+      </article>
+      <article class="product">
+        <h2>Товар 3</h2>
+        <p>Описание товара 3.</p>
+        <button onclick="addToCart('Товар 3')">Добавить в корзину</button>
+      </article>
+    </section>
+    <aside>
+      <h3>Корзина</h3>
+      <ul id="cart"></ul>
+    </aside>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
